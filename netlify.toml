@@ -1,0 +1,17 @@
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/criar-pagamento"
+  to = "/.netlify/functions/criar-pagamento"
+  status = 200
+
+[[redirects]]
+  from = "/api/webhook-mercadopago"
+  to = "/.netlify/functions/webhook-mercadopago"
+  status = 200
+
+[[redirects]]
+  from = "/api/ingresso"
+  to = "/.netlify/functions/ingresso"
+  status = 200
